@@ -9,10 +9,5 @@ int main() {
     printf("Enter second value: ");
     scanf("%d", &value2);
 
-    sum = value1 + value2;
-
-    printf("You entered: %d and %d\n", value1, value2);
-    printf("Sum: %d\n", sum);
-
     return 0;
 }

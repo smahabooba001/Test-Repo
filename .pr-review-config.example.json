@@ -1,0 +1,18 @@
+{
+  "agent_cli_command": "agent-review-cli review --input {input} --output {output}",
+  "max_critical": 0,
+  "max_high": 0,
+  "dry_run": false,
+  "fail_on_agent_error": false,
+  "fail_on_publish_error": false,
+  "include_file_contents": true,
+  "max_file_content_bytes": 200000,
+  "max_inline_comments": 25,
+  "report_dir": "docs/pr-reviews",
+  "commit_report": false,
+  "commit_report_branch": "",
+  "agent_timeout_sec": 300,
+  "agent_retry_count": 2,
+  "agent_retry_delay_sec": 5
+}
+
