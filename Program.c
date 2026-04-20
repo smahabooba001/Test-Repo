@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//adding two value
 int main() {
     int value1, value2, sum;
 
