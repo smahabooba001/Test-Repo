@@ -13,7 +13,7 @@ env:
 
 jobs:
   ai-pr-review:
-    uses: PR-REVIEW-ORGANIZATION/Agent-Repo/.github/workflows/reusable-pr-ai-review.yml@main
+    uses: PR-REVIEW-ORGANIZATION/Agent-Repo/.github/workflows/reusable-pr-ai-review.yml@<FIXED_COMMIT_SHA>
     with:
       repository: ${{ github.repository }}
       pr_number: ${{ github.event.pull_request.number }}
